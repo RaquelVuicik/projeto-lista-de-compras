@@ -101,9 +101,14 @@ form {
     justify-content: space-between;
 }
 
+.item-lista-container div {
+    display: flex;
+}
+
 .container-nome-compra {
     display: flex;
 }
+
 
 ul {
     list-style-type: none;

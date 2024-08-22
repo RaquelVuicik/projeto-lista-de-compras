@@ -1,6 +1,7 @@
 const item = document.querySelector('#input-item');
 const botaoSalvarItem = document.querySelector('#adicionar-botao');
 const listaDeCompras = document.querySelector('#lista-de-compras');
+const listaComprados = document.querySelector('#lista-comprados');
 
 let contador = 0;
 
@@ -26,6 +27,17 @@ function adicionarItem(evento) {
 
     const checkboxLabel = document.createElement('label');
     checkboxLabel.setAttribute('for', checkboxInput.id);
+
+    checkboxLabel.addEventListener('click', function (evento) {
+        const checkboxInput = evento.currentTarget.querySelector('.checkbox-input');
+        const checkboxCustomizado = evento.currentTarget.querySelector('.checkbox-customizado');
+
+        if (checkboxInput.checked) {
+            checkboxCustomizado.classList.add('checked');
+        } else {
+            checkboxCustomizado.classList.remove('checked');
+        }
+    })
 
     const checkboxCustomizado = document.createElement('div');
     checkboxCustomizado.classList.add('checkbox-customizado');
