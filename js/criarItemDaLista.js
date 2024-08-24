@@ -1,5 +1,6 @@
 import { addDataEHora } from "./addDataEHora.js";
 import { verificarListaComprados } from "./verificarListaComprados.js";
+import { excluirItem } from "./excluirItem.js";
 
 const listaDeCompras = document.querySelector('#lista-de-compras');
 const listaComprados = document.querySelector('#lista-comprados');
@@ -61,6 +62,10 @@ export function criarItemDaLista(item) {
     const imagemRemover = document.createElement('img');
     imagemRemover.src = 'img/delete.svg';
     imagemRemover.alt = 'Remover';
+
+    botaoRemover.addEventListener('click', function () {
+        excluirItem(itemDaLista);
+    })
 
     botaoRemover.appendChild(imagemRemover);
     containerBotoes.appendChild(botaoRemover);
