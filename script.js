@@ -1,5 +1,7 @@
 import { adicionarItem } from "./js/adicionarItem.js";
-
+import { verificarListaComprados } from "./js/verificarListaComprados.js";
 
 const botaoSalvarItem = document.querySelector('#adicionar-botao');
 botaoSalvarItem.addEventListener('click', adicionarItem);
+
+//verificarListaComprados();
