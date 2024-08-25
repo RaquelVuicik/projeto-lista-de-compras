@@ -18,7 +18,7 @@ As técnicas e tecnologias utilizadas pra isso são:
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
+Você pode [acessar o código fonte do projeto inicial](https://github.com/RaquelVuicik/projeto-lista-de-compras/tree/main) ou [baixá-lo](https://github.com/RaquelVuicik/projeto-lista-de-compras/archive/refs/heads/main.zip).
 
 ## 🛠️ Abrir e rodar o projeto
 
