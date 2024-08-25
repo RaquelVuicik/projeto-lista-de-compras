@@ -1,9 +1,6 @@
+# Lista de Compras
 
-![Descricao da sua imagem](https://imgur.com/C8TfWXc.png)
-
-# Titulo do projeto
-
-Aplicação web de lista de compras para o curso de construção de páginas dinâmicas com JavaScript.
+Aplicação web de lista de compras para construção de páginas dinâmicas com JavaScript.
 
 ## 🔨 Funcionalidades do projeto
 
@@ -21,7 +18,7 @@ As técnicas e tecnologias utilizadas pra isso são:
 
 ## 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/3801-javascript-para-web/tree/projeto-base) ou [baixá-lo](https://github.com/alura-cursos/3801-javascript-para-web/archive/refs/heads/projeto-base.zip).
+Você pode [acessar o código fonte do projeto inicial](https://github.com/RaquelVuicik/projeto-lista-de-compras/tree/main) ou [baixá-lo](https://github.com/RaquelVuicik/projeto-lista-de-compras/archive/refs/heads/main.zip).
 
 ## 🛠️ Abrir e rodar o projeto
 
