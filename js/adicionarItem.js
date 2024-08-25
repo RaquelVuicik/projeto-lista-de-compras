@@ -9,7 +9,13 @@ export function adicionarItem(evento) {
     evento.preventDefault()
     // console.log('entrei na função');
 
+    if (item.value === '') {
+        alert('Por favor, insira um item!');
+        return;
+    }
+
     const itemDaLista = criarItemDaLista(item.value);
     listaDeCompras.appendChild(itemDaLista);
     verificarListaVazia(listaDeCompras);
+    item.value = '';
 }

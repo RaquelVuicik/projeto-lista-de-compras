@@ -4,4 +4,5 @@ import { verificarListaComprados } from "./js/verificarListaComprados.js";
 const botaoSalvarItem = document.querySelector('#adicionar-botao');
 botaoSalvarItem.addEventListener('click', adicionarItem);
 
-//verificarListaComprados();
+const listaComprados = document.querySelector('#lista-comprados');
+verificarListaComprados(listaComprados);
