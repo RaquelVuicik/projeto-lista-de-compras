@@ -2,6 +2,7 @@ import { addDataEHora } from "./addDataEHora.js";
 import { verificarListaComprados } from "./verificarListaComprados.js";
 import { excluirItem } from "./excluirItem.js";
 import { editarItem } from "./editarItem.js";
+import { verificarListaVazia } from "./verificarListaVazia.js";
 
 const listaDeCompras = document.querySelector('#lista-de-compras');
 const listaComprados = document.querySelector('#lista-comprados');
@@ -34,6 +35,7 @@ export function criarItemDaLista(item) {
             checkboxCustomizado.classList.add('checked');
             itemTitulo.style.textDecoration = 'line-through';
             listaComprados.appendChild(itemDaLista);
+            verificarListaVazia(listaDeCompras);
         } else {
             checkboxCustomizado.classList.remove('checked');
             itemTitulo.style.textDecoration = 'none';

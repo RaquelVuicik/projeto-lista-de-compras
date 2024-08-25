@@ -5,6 +5,5 @@ export function verificarListaVazia(lista) {
         mensagemListaVazia.style.display = 'block';
     } else {
         mensagemListaVazia.style.display = 'none';
-        
     }
 }
